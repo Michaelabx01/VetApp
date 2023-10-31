@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/menu_Reservaciones"
+        android:title="Reservaciones"
+        android:icon="@drawable/ic_reserva"/>
+
+    <item android:id="@+id/menu_Mascotas"
+        android:title="Mascotas"
+        android:icon="@drawable/ic_pet"/>
+
+    <item android:id="@+id/menu_cuenta"
+        android:title="Cuenta"
+        android:icon="@drawable/ic_cuenta"/>
+
+    <item android:id="@+id/menu_mapa"
+        android:title="Ubicación"
+        android:icon="@drawable/ic_mapa"/>
+
+
+</menu>

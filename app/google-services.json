@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1057562729330",
+    "project_id": "project-da48f",
+    "storage_bucket": "project-da48f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057562729330:android:324f742bf8b4b4b5151beb",
+        "android_client_info": {
+          "package_name": "com.upc.proyecto_upc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpArkujnN7VhZI9StDanUIUKiHwCZeqTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

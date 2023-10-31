@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pantallas.Ubicacion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logo_vetapp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubicación"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/letras"
+            android:layout_gravity="center"
+            android:layout_marginLeft="49dp"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp"
+            android:textColor="@color/letras"
+            android:text="Te esperamos en nuestro local de lunes a sábado desde las 9:00 a. m. hasta las 6:00 p. m."
+            android:gravity="center"
+            android:layout_marginHorizontal="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="22sp"
+            android:textColor="@color/letras"
+            android:text="Nuestra dirección: Jr. Emilio Althaus 151 - Lince"
+            android:gravity="center"
+            android:layout_marginHorizontal="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/btnMapa"
+            android:text="Ver ubicación"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</FrameLayout>
